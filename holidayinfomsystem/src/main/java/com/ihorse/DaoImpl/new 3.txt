@@ -1,0 +1,17 @@
+
+	$( "#sd" ).datepicker( {
+		minDate : 0,
+		maxDate : "+60D",
+		numberOfMonths : 2,
+		onSelect : function ( selected ) {
+			$( "#ed" ).datepicker( "option", "minDate", selected )
+		}
+	} );
+	$( "#ed" ).datepicker( {
+		minDate : 0,
+		maxDate : "+60D",
+		numberOfMonths : 2,
+		onSelect : function ( selected ) {
+			$( "#sd" ).datepicker( "option", "maxDate", selected )
+		}
+	} );

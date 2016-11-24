@@ -1,0 +1,173 @@
+/* Sticky footer styles
+  -------------------------------------------------- */
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	background-color: peachpuff;
+	margin-bottom: 60px;
+}
+
+#footer {
+	background-color: darkorange;
+	bottom: 0;
+	height: 32px;
+	position: absolute;
+	width: 100%;
+}
+
+.navbar-default {
+	background-color: #FF8C00;
+	border-color: #FF8C00;
+	height: 55px;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+body>.container {
+	padding: 60px 15px 0;
+}
+
+.footer-block {
+	margin: 20px 0;
+}
+
+#footer>.container {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.navbar-fixed-left {
+	width: 224px;
+	position: fixed;
+	border-radius: 0px;
+	height: 100%;
+	background-color: #DAA520;
+}
+
+.navbar-fixed-left .navbar-nav>li {
+	float: none; /* Cancel default li float: left */
+	width: 139px;
+}
+
+.navbar-fixed-left+.container {
+	padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav>li>.dropdown-menu {
+	margin-top: -50px;
+	margin-left: 140px;
+}
+
+.input-group {
+	position: relative;
+	display: table;
+	border-collapse: separate;
+	top: 120px;
+}
+
+element.style {
+	text-align: center;
+}
+
+h1 {
+	display: block;
+	top: font-size: 4em;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+.ui-widget-content {
+	color: red;
+}
+
+#datepicker-container {
+	text-align: center;
+}
+
+#datepicker-center {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.ui-datepicker {
+	width: 63em;
+	padding: 0.2em 0.2em 0px;
+	display: none;
+}
+
+p {
+	margin: 75px 0px 10px;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.42857;
+	color: #333;
+}
+
+.l {
+	color: white;
+}
+
+.u {
+	color: white;
+	text-align: center;
+}
+
+.hasDatepicker {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.42857;
+	color: #333;
+}
+
+.ht {
+	color: white;
+	padding-top: 30px;
+}
+
+h2 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 0.1;
+	color: inherit;
+}
+
+h5 {
+	font-size: 12px;
+	color: blue;
+}
+
+.dp-highlight .ui-state-default {
+	background: #484;
+	color: #FFF;
+}
+
+td, th {
+	padding: 5px;
+}
+
+.css-class-to-highlight {
+	background-color: #ff0;
+}
+
+.tview {
+	width: 800px;
+	padding-left: 242px;
+	padding-top: 35px;
+}
+
+.navbar-fixed-top {
+	position: fixed;
+	right: 0;
+	left: 18px;
+	z-index: 1030;
+}
